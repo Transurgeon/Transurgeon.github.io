@@ -15,7 +15,7 @@ body {
     text-align: center;
   }
   .box {
-    width: 800px;
+    width: 600px;
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -31,7 +31,7 @@ body {
   }
 
   .box h1{
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 4px;
     font-weight: 100;
   }
@@ -42,9 +42,17 @@ body {
     font-weight: 100;
   }
 
+  .box div{
+    font-size: 17px;
+    text-align:center;
+    letter-spacing: 2px;
+  }
+
   .box p{
     text-align: justify;
   }
+
+
   header {
     background-color: rgb(34, 28, 28);
     background-size: 80%;
