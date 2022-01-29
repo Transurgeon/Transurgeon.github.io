@@ -15,7 +15,7 @@ body {
     text-align: center;
     background-repeat: no-repeat;
   }
-  
+
   .box {
     width: 600px;
     padding: 20px;
@@ -63,6 +63,20 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .ResumeBox h1{
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+
+  .ProjectBox {
+    width: 600px;
+    padding: 20px;
+    text-align: justify;
+    margin-top: 0.5%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .ProjectBox h1{
     font-size: 26px;
     letter-spacing: 4px;
     font-weight: 100;
