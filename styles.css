@@ -13,6 +13,7 @@ body {
     background-position: center;
     padding: 20px;
     text-align: center;
+    background-repeat: no-repeat;
   }
   .box {
     width: 600px;
@@ -51,7 +52,6 @@ body {
   .box p{
     text-align: justify;
   }
-
 
   header {
     background-color: rgb(34, 28, 28);
