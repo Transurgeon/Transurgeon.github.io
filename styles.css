@@ -8,7 +8,7 @@ body {
   
   header {
     background-color: black;
-    background-image: url("http://gdurl.com/1glme");
+    background-image: url("Images/coding-image.png");
     background-size: 100%;
     background-position: center;
     height: 400px;
@@ -22,28 +22,24 @@ body {
     text-transform: uppercase;
     margin-top: 40px;
   }
-  
-  header .logo a {
-    background-image: url("http://gdurl.com/b9cd");
-    background-size: 300px;
-    background-repeat: no-repeat;
-    display: inline-block;
-    height: 80px;
-    position: relative;
-    text-indent: -9999999px;
-    top: -30px;
+
+  div {
+    text-align:center;
     width: 300px;
+    margin: 0 auto;
+    border-style: dotted;
   }
-  
+
   nav ul {
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    list-style-type: upper-latin;
   }
   
   nav li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 50px;
+    font-size: x-large;
   }
   
   .features {
