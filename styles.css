@@ -8,10 +8,10 @@ body {
   
   header {
     background-color: black;
-    background-image: url("Images/coding-image.png");
+    background-image: url("Images/LinuxPenguin.jpg");
     background-size: 100%;
     background-position: center;
-    height: 400px;
+    height: 350px;
     padding: 20px;
     text-align: center;
   }
