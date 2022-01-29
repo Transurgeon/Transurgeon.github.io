@@ -1,5 +1,5 @@
 body {
-    background: rgb(58, 58, 58);
+    background: rgb(43, 39, 39);
     color: white;
     font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
     margin: 0;
@@ -15,6 +15,7 @@ body {
     text-align: center;
     background-repeat: no-repeat;
   }
+  
   .box {
     width: 600px;
     padding: 20px;
@@ -53,8 +54,22 @@ body {
     text-align: justify;
   }
 
+  .ResumeBox {
+    width: 600px;
+    padding: 20px;
+    text-align: left;
+    margin-top: 0.5%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  .ResumeBox h1{
+    font-size: 26px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+
   header {
-    background-color: rgb(34, 28, 28);
+    background-color: rgb(27, 25, 25);
     background-size: 80%;
     height: 100px;
     padding: 20px;
@@ -62,11 +77,12 @@ body {
   }
   
   header a {
-    color: white;
+    color: rgb(23, 148, 206);
     text-decoration: none;
     text-transform: uppercase;
     margin-top: 40px;
   }
+
   nav ul {
     margin: 20px;
     padding: 20px;
