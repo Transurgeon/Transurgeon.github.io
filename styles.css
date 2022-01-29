@@ -6,12 +6,49 @@ body {
     padding: 0;
   }
   
-  header {
+  section {
     background-color: black;
     background-image: url("Images/LinuxPenguin.jpg");
     background-size: 100%;
     background-position: center;
-    height: 350px;
+    padding: 20px;
+    text-align: center;
+  }
+  .box {
+    width: 800px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .box-img {
+    border-radius: 40%;
+    width: auto;
+    height: 500px;
+  }
+
+  .box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+
+  .box h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+  }
+
+  .box p{
+    text-align: justify;
+  }
+  header {
+    background-color: rgb(34, 28, 28);
+    background-size: 80%;
+    height: 100px;
     padding: 20px;
     text-align: center;
   }
@@ -22,14 +59,6 @@ body {
     text-transform: uppercase;
     margin-top: 40px;
   }
-
-  div {
-    text-align:center;
-    width: 300px;
-    margin: 0 auto;
-    border-style: dotted;
-  }
-
   nav ul {
     margin: 20px;
     padding: 20px;
@@ -63,12 +92,3 @@ body {
     box-shadow: gray 0 0 10px;
     width: 200px;
   }
-  
-  footer {
-    background: black;
-    color: gray;
-    font-size: 12px;
-    padding: 20px 20px;
-    text-align: center;
-  }
-  
