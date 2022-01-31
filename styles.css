@@ -75,6 +75,17 @@ body {
     padding: 5px;
   }
 
+  .resumeButton {
+    border:rgb(156, 129, 22);
+    color: rgb(87, 80, 80);
+    padding: 15px 32px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
   .ProjectBox {
     width: 1050px;
     padding: 20px;
@@ -156,6 +167,44 @@ body {
     cursor: pointer;
 }
 
+  .adminBox {
+  width: 950px;
+  text-align: left;
+  margin-left: 7%;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.adminBox h1{
+  font-size: 30px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+.adminBox .input {
+  padding: 12px;
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.adminButton {
+  border:rgb(156, 129, 22);
+  background-color: rgb(21, 162, 197);
+  color:ghostwhite;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 7%;
+  margin-bottom: 50%;
+  cursor: pointer;
+}
+
   header {
     background-color: rgb(27, 25, 25);
     background-size: 80%;
@@ -181,38 +230,4 @@ body {
     display: inline-block;
     margin-right: 50px;
     font-size: x-large;
-  }
-  
-  .features {
-    background: white;
-    color: gray;
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .features figure {
-    margin: auto;
-    text-align: center;
-    text-transform: uppercase;
-    width: 200px;
-  }
-  
-  .features figure img {
-    border: 1px solid white;
-    border-radius: 50%;
-    box-shadow: gray 0 0 10px;
-    width: 200px;
-  }
-
-  .resumeButton {
-      border:rgb(156, 129, 22);
-      color: rgb(87, 80, 80);
-      padding: 15px 32px;
-      text-align: left;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 20px;
-      margin: 4px 2px;
-      cursor: pointer;
   }
