@@ -61,6 +61,7 @@ body {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
   .ResumeBox h1{
     font-size: 22px;
     letter-spacing: 3px;
@@ -75,23 +76,42 @@ body {
   }
 
   .ProjectBox {
-    width: 950px;
+    width: 1050px;
     padding: 20px;
     text-align: justify;
     margin-top: 0.5%;
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
+
   .ProjectBox h1{
     font-size: 30px;
     letter-spacing: 4px;
     font-weight: 100;
   }
 
-  .ProjectBox ol{
-    font-size: 18px;
+  .ProjectBox li{
+    font-size: 24px;
     letter-spacing: 2px;
     font-weight: 100;
+    padding: 5px;
+  }
+
+  .ProjectBox dt{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: 100;
+    padding: 10px;
+  }
+
+  .ProjectBox dd{
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
+ 
+  .coreCompetencies{
+    color: cyan;
   }
   header {
     background-color: rgb(27, 25, 25);
@@ -152,5 +172,4 @@ body {
       font-size: 20px;
       margin: 4px 2px;
       cursor: pointer;
-    
   }
