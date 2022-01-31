@@ -75,7 +75,7 @@ body {
   }
 
   .ProjectBox {
-    width: 600px;
+    width: 950px;
     padding: 20px;
     text-align: justify;
     margin-top: 0.5%;
@@ -83,11 +83,16 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   .ProjectBox h1{
-    font-size: 26px;
+    font-size: 30px;
     letter-spacing: 4px;
     font-weight: 100;
   }
 
+  .ProjectBox ol{
+    font-size: 18px;
+    letter-spacing: 2px;
+    font-weight: 100;
+  }
   header {
     background-color: rgb(27, 25, 25);
     background-size: 80%;
