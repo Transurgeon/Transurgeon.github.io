@@ -113,6 +113,49 @@ body {
   .coreCompetencies{
     color: cyan;
   }
+
+  .contactBox {
+    width: 950px;
+    text-align: left;
+    margin-left: 4%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .contactBox h1{
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 100;
+  }
+
+  .contactBox .input {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .contactBox h3 {
+    padding: 12px;
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .contactButton {
+    border:rgb(156, 129, 22);
+    background-color: rgb(21, 162, 197);
+    color:ghostwhite;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 13%;
+    cursor: pointer;
+}
+
   header {
     background-color: rgb(27, 25, 25);
     background-size: 80%;
