@@ -140,7 +140,8 @@ body {
 
   .socialBox img {
     border-radius: 7%;
-
+    width: 500px;
+    height: auto;
   }
   .coreCompetencies{
     color: cyan;
