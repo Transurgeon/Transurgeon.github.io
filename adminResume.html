@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <title> William's Admin Resume Page</title>
     <link rel = "stylesheet" href = "styles.css">
+    <script>
+        function submitResume() {
+            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+        }
+    </script>
 </head>
 
 <body>
@@ -23,22 +28,24 @@
     <section>
         <div class = "adminResumeBox">
             
-            <label for="Education">Educational Qualifications : </label>
-            <textarea rows="12" cols="37" id="Education"> Welcome to the dark... </textarea>
+            <h1> Welcome to the Admin Resume Page</h1>
+
+            <div class="input"><label for="Education">Educational Qualifications : </label></div>
+            <textarea rows="12" cols="20" id="Education"> Welcome to the dark... </textarea>
     
-            <label for="Skills">Skill Set : </label>
-            <textarea rows="12" cols="37" id="Skills"> Welcome to the dark... </textarea>
+            <div class="input"><label for="Skills">Skill Set : </label></div>
+            <textarea rows="12" cols="20" id="Skills"> Welcome to the dark... </textarea>
             
-            <label for="Awards">Awards/Recognition : </label>
-            <textarea rows="12" cols="37" id="Awards"> Welcome to the dark... </textarea>
+            <div class="input"><label for="Awards">Awards/Recognition : </label></div>
+            <textarea rows="12" cols="20" id="Awards"> Welcome to the dark... </textarea>
     
-            <label for="Work">Work Experience : </label>
-            <textarea rows="12" cols="37" id="Work"> Welcome to the dark... </textarea>
+            <div class="input"><label for="Work">Work Experience : </label></div>
+            <textarea rows="12" cols="20" id="Work"> Welcome to the dark... </textarea>
 
-            <label for="Ref">Referees : </label>
-            <textarea rows="12" cols="37" id="Ref"> Welcome to the dark... </textarea>
+            <div class="input"><label for="Ref">Referees : </label></div>
+            <textarea rows="12" cols="20" id="Ref"> Welcome to the dark... </textarea>
 
-            <label for="ResumeButton">Submit : </label>
+            <div class="input"><label for="ResumeButton">Submit : </label></div>
             <input type="submit" id="ResumeButton"/>
         </div>
     </section>

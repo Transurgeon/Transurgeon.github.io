@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <title> William's Admin Home Page</title>
     <link rel = "stylesheet" href = "styles.css">
+    <script>
+        function submitIndex() {
+            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+        }
+    </script>
 </head>
 
 <body>
@@ -22,15 +27,16 @@
     </header>
     <section>
     <div class = "adminIndexBox">
-            
-        <label for="ProState">Professional Statement : </label>
-        <textarea rows="12" cols="37" id="ProState"> Welcome to the dark... </textarea>
+        <h1> Welcome to the Admin Home Page</h1>
 
-        <label for="Bio">Brief Biography : </label>
-        <textarea rows="12" cols="37" id="Bio"> Welcome to the dark... </textarea>
+        <div class="input"><label for="ProState">Professional Statement : </label></div>
+        <textarea rows="12" cols="20" id="ProState"> Welcome to the dark... </textarea>
 
-        <label for="IndexButton">Submit : </label>
-        <input type="submit" id="IndexButton"/>
+        <div class="input"><label for="Bio">Brief Biography : </label></div>
+        <textarea rows="12" cols="20" id="Bio"> Welcome to the dark... </textarea>
+
+        <div class="input"><label for="IndexButton">Submit : </label></div>
+        <input type="submit" onclick="submitIndex()" id="IndexButton"/>
     </div>
     </section>
 </body>
