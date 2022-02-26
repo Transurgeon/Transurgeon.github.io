@@ -7,7 +7,14 @@
     <link rel = "stylesheet" href = "styles.css">
     <script>
         function readMessages() {
-            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+            var file = document.getElementById("load").files[0];
+            var reader = new FileReader();
+
+            reader.onloadend = function() {
+                alert("yoooo");
+                document.getElementById("textarea").value = reader.result;
+            }
+            reader.readAsText(file);
         }
     </script>
 </head>
@@ -28,6 +35,9 @@
     <section>
         <div class = "adminContactBox">
             <h1> Welcome to the Admin Contact Page</h1>
+
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            <input id="load" type="file" value="load" onchange="readMessages()">
 
             <div class="input"><label for="ContactButton">ReadMessage : </label></div>
             <input type="submit" onclick="readMessages()" id="ContactButton"/>
