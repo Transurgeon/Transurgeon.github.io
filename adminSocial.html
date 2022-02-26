@@ -6,8 +6,24 @@
     <title> William's Admin Social Page</title>
     <link rel = "stylesheet" href = "styles.css">
     <script>
-        function submitSocial() {
-            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+        function submitSocial() { 
+            alert("test");
+            var social1 = document.getElementById("social1").value;
+            var social2 = document.getElementById("social2").value;
+            var social3 = document.getElementById("social3").value;
+            
+            var data = "";
+            data += social1;
+            data += "\n--------------------------\n";
+            data += social2;
+            data += "\n--------------------------\n";
+            data += social3;
+
+            var file = new Blob([data],{type:"text"});
+            var anchor = document.createElement("a");
+            anchor.href = URL.createObjectURL(file);
+            anchor.download = "socials.txt";
+            anchor.click();
         }
     </script>
 </head>
@@ -26,7 +42,21 @@
         </nav>
     </header>
     <section>
-        
+        <div class = "adminSocialBox">
+            <h1> Welcome to the Admin Social Page</h1>
+    
+            <div class="input"><label for="social1">Social Link 1 : </label></div>
+            <input type="text" id="social1" placeholder="ex: Meta.WillimaZ.com"/>
+    
+            <div class="input"><label for="social2">Social Link 2 : </label></div>
+            <input type="text" id="social2" placeholder="ex: RuffleCopter@gmail.com"/>
+
+            <div class="input"><label for="social3">Social Link 3 : </label></div>
+            <input type="text" id="social3" placeholder="ex: patoucheas.github.io"/>
+    
+            <div class="input"><label for="SocialButton">Submit : </label></div>
+            <input type="submit" onclick="submitSocial()" id="SocialButton"/>
+        </div>
     </section>
 </body>
 
