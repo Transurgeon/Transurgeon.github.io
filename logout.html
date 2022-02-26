@@ -7,7 +7,11 @@
     <link rel = "stylesheet" href = "styles.css">
     <script>
         function processLogout() {
-            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+            
+            myStorage = window.sessionStorage;
+            
+            sessionStorage.clear();
+            alert("test");
         }
     </script>
 </head>
