@@ -7,7 +7,17 @@
     <link rel = "stylesheet" href = "styles.css">
     <script>
         function submitProjects() {
-            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+            alert("test");
+            var Projects = document.getElementById("Projects").value;
+            
+            var data = "";
+            data += Projects;
+
+            var file = new Blob([data],{type:"text"});
+            var anchor = document.createElement("a");
+            anchor.href = URL.createObjectURL(file);
+            anchor.download = "projects.txt";
+            anchor.click();
         }
     </script>
 </head>
@@ -31,10 +41,10 @@
             <h1> Welcome to the Admin Projects Page</h1>
 
             <div class="input"><label for="Projects">My Projects : </label></div>
-            <textarea rows="12" cols="37" id="Projects"> Welcome to the dark... </textarea>
+            <textarea rows="12" cols="37" id="Projects" placeholder="Welcome to the dark... "></textarea>
 
             <div class="input"><label for="ProjectsButton">Submit : </label></div>
-            <input type="submit" id="ProjectsButton"/>
+            <input type="submit" onclick="submitProjects()" id="ProjectsButton"/>
         </div>
     </section>
 </body>

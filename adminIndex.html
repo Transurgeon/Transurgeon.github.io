@@ -13,13 +13,12 @@
             
             var data = "";
             data += ProState;
-            data += "--------------------------";
+            data += "\n--------------------------\n";
             data += Bio;
-            var data_string = JSON.stringify(data);
-            var file = new Blob([data_string],{type:"text"});
+            var file = new Blob([data],{type:"text"});
             var anchor = document.createElement("a");
             anchor.href = URL.createObjectURL(file);
-            anchor.download = "admin.txt";
+            anchor.download = "index.txt";
             anchor.click();
         }
         
@@ -44,10 +43,10 @@
         <h1> Welcome to the Admin Home Page</h1>
 
         <div class="input"><label for="ProState">Professional Statement : </label></div>
-        <textarea rows="12" cols="20" id="ProState"> Welcome to the dark... </textarea>
+        <textarea rows="12" cols="20" id="ProState" placeholder="Welcome to the dark... "></textarea>
 
         <div class="input"><label for="Bio">Brief Biography : </label></div>
-        <textarea rows="12" cols="20" id="Bio"> Welcome to the dark... </textarea>
+        <textarea rows="12" cols="20" id="Bio" placeholder="Welcome to the dark... "></textarea>
 
         <div class="input"><label for="IndexButton">Submit : </label></div>
         <input type="submit" onclick="submitIndex()" id="IndexButton"/>
