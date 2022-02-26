@@ -7,8 +7,22 @@
     <link rel = "stylesheet" href = "styles.css">
     <script>
         function submitIndex() {
-            document.getElementById("ProState").innerHTML = "Paragraph changed.";
+            alert("test");
+            var ProState = document.getElementById("ProState").value;
+            var Bio = document.getElementById("Bio").value;
+            
+            var data = "";
+            data += ProState;
+            data += "--------------------------";
+            data += Bio;
+            var data_string = JSON.stringify(data);
+            var file = new Blob([data_string],{type:"text"});
+            var anchor = document.createElement("a");
+            anchor.href = URL.createObjectURL(file);
+            anchor.download = "admin.txt";
+            anchor.click();
         }
+        
     </script>
 </head>
 
