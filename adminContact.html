@@ -9,12 +9,25 @@
         function readMessages() {
             var file = document.getElementById("load").files[0];
             var reader = new FileReader();
-
+            
             reader.onloadend = function() {
-                alert("yoooo");
-                document.getElementById("textarea").value = reader.result;
+                var tableContent = '';
+                alert(reader.result);
+                var lines = reader.result.split('\n');
+                
+                for (let i = 0 ; i<lines.length; i++) {
+                tableContent += '<tr>';
+                tableContent += '<td>' + lines[i] + '</td>';
+                tableContent += '</tr>';
+            };
+
+            document.getElementById("tablediv").innerHTML = tableContent;
             }
             reader.readAsText(file);
+        }
+
+        function show() {
+        document.getElementById('load').click();
         }
     </script>
 </head>
@@ -37,10 +50,20 @@
             <h1> Welcome to the Admin Contact Page</h1>
 
             <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+            <table>
+                <thead>
+                <tr>
+                  <th>Table example</th>
+                </tr>
+              <thead>
+              <tbody id="tablediv">
+              </tbody>
+              </table>
+
             <input id="load" type="file" value="load" onchange="readMessages()">
 
             <div class="input"><label for="ContactButton">ReadMessage : </label></div>
-            <input type="submit" onclick="readMessages()" id="ContactButton"/>
+            <input type="submit" onclick="show()" id="ContactButton"/>
         </div>
     </section>
 </body>

@@ -285,3 +285,37 @@
     border-radius: 5px;
     padding: 20px;
   }
+
+  .adminContactBox {
+    width: 950px;
+    text-align: left;
+    margin-left: 4%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .adminContactBox #load {
+    visibility: hidden;
+  }
+
+  .adminSocialBox {
+    width: 950px;
+    text-align: left;
+    margin-left: 4%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    padding: 20px;
+  }
+
+  .adminLogoutBox {
+    width: 950px;
+    text-align: left;
+    margin-left: 4%;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 5px;
+    padding: 20px;
+  }
