@@ -7,7 +7,8 @@
   }
   
   section {
-    background-image: url(Images/LinuxPenguin.jpg);
+    /*background-image: url(Images/LinuxPenguin.jpg);*/
+    background-color: black;
     background-size: 100%;
     background-position: center;
     padding: 20px;
@@ -318,4 +319,8 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 5px;
     padding: 20px;
+  }
+
+  .tablediv th, td{
+  border: 1px solid;
   }

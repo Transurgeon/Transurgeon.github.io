@@ -48,19 +48,17 @@
     <section>
         <div class = "adminContactBox">
             <h1> Welcome to the Admin Contact Page</h1>
-
-            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
             <table>
                 <thead>
                 <tr>
                   <th>Table example</th>
                 </tr>
-              <thead>
+            </thead>
               <tbody id="tablediv">
               </tbody>
               </table>
 
-            <input id="load" type="file" value="load" onchange="readMessages()">
+            <input id="load" type="file" onchange="readMessages()">
 
             <div class="input"><label for="ContactButton">ReadMessage : </label></div>
             <input type="submit" onclick="show()" id="ContactButton"/>
