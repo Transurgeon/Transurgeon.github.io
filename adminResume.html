@@ -5,31 +5,7 @@
     <meta charset="UTF-8">
     <title> William's Admin Resume Page</title>
     <link rel = "stylesheet" href = "styles.css">
-    <script>
-        function submitResume() {
-            var Education = document.getElementById("Education").value;
-            var Skills = document.getElementById("Skills").value;
-            var Awards = document.getElementById("Awards").value;
-            var Work = document.getElementById("Work").value;
-            var Ref = document.getElementById("Ref").value;
-            
-            var data = "";
-            data += Education;
-            data += "\n--------------------------\n";
-            data += Skills;
-            data += "\n--------------------------\n";
-            data += Awards;
-            data += "\n--------------------------\n";
-            data += Work;
-            data += "\n--------------------------\n";
-            data += Ref;
-
-            var file = new Blob([data],{type:"text"});
-            var anchor = document.createElement("a");
-            anchor.href = URL.createObjectURL(file);
-            anchor.download = "resume.txt";
-            anchor.click();
-        }
+    <script src = "/functions.js">
     </script>
 </head>
 

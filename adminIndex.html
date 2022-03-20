@@ -5,22 +5,7 @@
     <meta charset="UTF-8">
     <title> William's Admin Home Page</title>
     <link rel = "stylesheet" href = "styles.css">
-    <script>
-        function submitIndex() {
-            var ProState = document.getElementById("ProState").value;
-            var Bio = document.getElementById("Bio").value;
-            
-            var data = "";
-            data += ProState;
-            data += "\n--------------------------\n";
-            data += Bio;
-            var file = new Blob([data],{type:"text"});
-            var anchor = document.createElement("a");
-            anchor.href = URL.createObjectURL(file);
-            anchor.download = "index.txt";
-            anchor.click();
-        }
-        
+    <script src = "/functions.js">
     </script>
 </head>
 

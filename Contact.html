@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title> William's Contact Page</title>
     <link rel = "stylesheet" href = "styles.css">
+    <script src = "/functions.js">
+    </script>
 </head>
 
 <body>
@@ -33,10 +35,10 @@
             <input type="text" id="fPhone" name="PhoneNumber" placeholder="Your Phone Number.."></div>
 
             <h3> Leave a message : </h3>
-            <textarea rows="12" cols="37"> Welcome to the dark... </textarea>
+            <textarea rows="12" cols="37" id="messageBox" placeholder="Welcome to the dark... "></textarea>
 
         <div>
-            <button type="button" class="contactButton">Submit</button> </div>
+            <button type="button" class="contactButton" onclick="submitContactMsg()">Submit</button> </div>
         </div>
     </section>
 </body>

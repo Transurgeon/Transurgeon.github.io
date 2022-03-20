@@ -5,25 +5,7 @@
     <meta charset="UTF-8">
     <title> William's Admin Social Page</title>
     <link rel = "stylesheet" href = "styles.css">
-    <script>
-        function submitSocial() { 
-            var social1 = document.getElementById("social1").value;
-            var social2 = document.getElementById("social2").value;
-            var social3 = document.getElementById("social3").value;
-            
-            var data = "";
-            data += social1;
-            data += "\n--------------------------\n";
-            data += social2;
-            data += "\n--------------------------\n";
-            data += social3;
-
-            var file = new Blob([data],{type:"text"});
-            var anchor = document.createElement("a");
-            anchor.href = URL.createObjectURL(file);
-            anchor.download = "socials.txt";
-            anchor.click();
-        }
+    <script src = "/functions.js">
     </script>
 </head>
 

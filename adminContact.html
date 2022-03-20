@@ -5,30 +5,7 @@
     <meta charset="UTF-8">
     <title> William's Admin Contact Page</title>
     <link rel = "stylesheet" href = "styles.css">
-    <script>
-        function readMessages() {
-            var file = document.getElementById("load").files[0];
-            var reader = new FileReader();
-            
-            reader.onloadend = function() {
-                var tableContent = '';
-                alert(reader.result);
-                var lines = reader.result.split('\n');
-                
-                for (let i = 0 ; i<lines.length; i++) {
-                tableContent += '<tr>';
-                tableContent += '<td>' + lines[i] + '</td>';
-                tableContent += '</tr>';
-            };
-
-            document.getElementById("tablediv").innerHTML = tableContent;
-            }
-            reader.readAsText(file);
-        }
-
-        function show() {
-        document.getElementById('load').click();
-        }
+    <script src = "/functions.js">
     </script>
 </head>
 
