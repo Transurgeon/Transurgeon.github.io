@@ -1,6 +1,14 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+# Disable these two since Jekyll now uses `kramdown` and`rouge` by default.
+#
+# markdown: redcarpet
+# highlighter: pygments
+
+# plugins used in the site
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll- sitemap
 
 # Permalinks
 permalink:        pretty
