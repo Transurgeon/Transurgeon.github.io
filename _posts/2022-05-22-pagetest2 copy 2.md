@@ -1,6 +1,6 @@
 ---
 layout: page
-title: trying something
+title: First Blog Post
 ---
 
 # Welcome
@@ -8,3 +8,4 @@ title: trying something
 **Hello world**, this is my first Jekyll blog post.
 
 I hope you like it!
+
