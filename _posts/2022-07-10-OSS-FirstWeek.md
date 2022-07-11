@@ -1,6 +1,6 @@
 ---
 layout: page
-title: First week of Spark Open Source
+title: First week of Open Source
 ---
 
 # Welcome
