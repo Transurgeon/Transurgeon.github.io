@@ -1,6 +1,6 @@
 ---
 layout: page
-title: First week of Open Source
+title: Summer is over
 ---
 
 # Welcome
