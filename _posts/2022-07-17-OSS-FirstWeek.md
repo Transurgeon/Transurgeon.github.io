@@ -13,7 +13,7 @@ My first encounter with Open Source was finding out about popular frameworks and
 
 Initially it did not make any sense to me. Why would big tech companies such as Facebook and Google, share the source code of their creations to the public?
 
-So I did some research.. and I found out that
+So I did some research.. and I found out that:
 
 Although each open source project has it's own unique and intriguing story, they all share a common vision: Allowing the community to provide instant feedback, develop new features on their own and help each other grow. 
 
