@@ -1,6 +1,6 @@
 ---
 layout: page
-title: First Blog Post
+title: Almost Midterms
 ---
 
 # Welcome
