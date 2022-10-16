@@ -76,3 +76,11 @@ I cannot really speak for how productive it is to take this course, in regards t
 
 ### Linear Algebra Summary
 
+This course has been relatively easy so far. The bulk of our learning was simply review of Linear Algebra concepts that I more or less already knew. The only challenge is to learn this computational tool called Maple, and trying to be efficient with the various commands. 
+
+The topics we have covered so far are:
+- Determinants, Invertibility of Matrices
+- Linear Combinations and Linear Independence
+- Homogeneous Systems of Equations
+- Change of Basis, from R^2 to R^2 and R^2 to R^3
+- Plotting using Maple
