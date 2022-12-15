@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Almost Midterms
+title: Going on exchange to Manchester
 ---
 
 # Welcome
