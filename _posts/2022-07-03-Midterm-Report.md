@@ -3,7 +3,9 @@ layout: page
 title: Midterm Reflection of Internship
 ---
 
-# 2 months in
+<h1 align="center">
+2 months in
+</h1>
 
 Today marks 60 days of my summer internship at Deloitte. 
 

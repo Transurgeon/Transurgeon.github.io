@@ -3,7 +3,9 @@ layout: page
 title: Code to Give Hackathon
 ---
 
-# MoreGlean
+<h1 align="center">
+MoreGlean
+</h1>
 
 This past weekend I attended the Morgan Stanley's Code to Give Hackathon in Montreal. 
 

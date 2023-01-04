@@ -3,7 +3,9 @@ layout: page
 title: School Updates
 ---
 
-# Difficult but enjoyable nonetheless
+<h1 align="center">
+Difficult but enjoyable nonetheless
+</h1>
 
 This semester I am taking 5 courses. I am already starting to feel the pressure of my workload slowly accumulating. However, a weird side of me is enjoying every moment of it.
 

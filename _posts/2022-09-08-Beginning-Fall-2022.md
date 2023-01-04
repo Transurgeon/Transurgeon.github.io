@@ -3,7 +3,9 @@ layout: page
 title: Back to School
 ---
 
-# Scraping the SEC
+<h1 align="center">
+Scraping the SEC
+</h1>
 
 In the past few weeks, I have been exploring financial data made public by the [SEC](https://www.sec.gov/about/what-we-do). 
 

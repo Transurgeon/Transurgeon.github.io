@@ -3,7 +3,9 @@ layout: page
 title: Starting a Django Project
 ---
 
-# Bibliomathica
+<h1 align="center">
+Bibliomathica
+</h1>
 
 Today I will be discussing about my new personal project that I started a month ago with my fellow intern and friend
 **[Devan](https://github.com/devan-srinivasan)**. 

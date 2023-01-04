@@ -3,7 +3,9 @@ layout: page
 title: First Blog Post
 ---
 
-# Welcome
+<h1 align="center">
+Welcome
+</h1>
 
 **Hello world**, this is my first Jekyll blog post.
 

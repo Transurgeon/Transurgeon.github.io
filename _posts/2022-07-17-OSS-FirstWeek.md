@@ -3,7 +3,9 @@ layout: page
 title: First weeks of Open Source
 ---
 
-# Getting started
+<h1 align="center">
+Getting started
+</h1>
 
 This is my story on how I got started contributing to Open Source projects such as Spark and Pandas.
 

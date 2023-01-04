@@ -3,7 +3,9 @@ layout: page
 title: Vacation time
 ---
 
-# Bye Bye Deloitte
+<h1 align="center">
+Bye Bye Deloitte
+</h1>
 
 Yesterday was my last day at Deloitte for this summer.
 
