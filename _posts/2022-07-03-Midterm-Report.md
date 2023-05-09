@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Midterm Reflection of Internship
+tags: Internship
 ---
 
 <h1 align="center">
@@ -37,7 +37,7 @@ For my second Certification, I decided to do more hands-on and learned about Spa
 
 **Certification #2** : [Data Engineering Associate, Databricks](https://databricks.com/learn/certification/data-engineer-associate)
 
-### Phase 2: Finding a project and learning
+### Phase 2: Finding a project
 
 After joining Deloitte for one month, I finally have been approached for a project. 
 
@@ -57,7 +57,7 @@ Finally, the cybersecurity team focused on creating use cases to figure out when
 
 So far, I have done research about the pros and cons of similar applications in the market using reports from the [Gartner Magic Quadrant](https://www.gartner.com/en/research/magic-quadrant)
 
-### Phase 3: Finding direction and starting to code
+### Phase 3: Finding direction
 
 I am currently in this phase. Unfortunately, my short tenure in the project has already been terminated due to pending internal conflicts. 
 

@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Starting a Django Project
+tags: Programming Internship
 ---
 
 <h1 align="center">
@@ -32,7 +32,7 @@ Django’s default admin page also helped tremendously at the beginning when we 
 
 You can learn more about Django and follow additional tutorials on testing and customization through their official **[documentation](https://docs.djangoproject.com/en/4.1/)**.
 
-### Explanation and reasoning of the tech stack
+### Tech stack explanation
 
 After layering the foundation of our web app, it was time to upgrade our tech stack. At this point in time, I had completed a few videos from the tutorial and did some substantial work on the **backend**. We had a login and profile system along with many more features including user owned models and custom templates for displaying.
 
@@ -46,7 +46,7 @@ We used **[Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduc
 
 Finally, Devan used a javascript bundling tool called **[Webpack](https://webpack.js.org/)** for the React component of our site. This allowed us to compile and bundle all the javascript files into a static file (bundle.js), thereby drastically reducing the amount of files needed to display the app. 
 
-### Debugging, Testing features and Deploying with Heroku
+### Deploying with Heroku
 
 When the app was mostly completed, it was time to deploy everything for the world to see. **[Heroku](https://www.heroku.com/dynos)** is an excellent (and free!) Platform as a Service that takes care of the deployment of your applications. There are some additional configurations required such as a **Procfile** and updating uWSGi.py but they are trivial if you follow a decent tutorial.
 
@@ -56,7 +56,7 @@ An absolute bargain if you ask me :).
 
 You can find our project under this link: **[Bibliomathica](http://www.bibliomathica.com/)**. Feel free to create an account and start contributing to our Library of Fun Mathematics.
 
-### Final touches and moving forward
+### Final touches
 
 I had an absolute blast building a niche application from scratch with Devan. We both employed good software practices almost daily: making issues, doing code review and pull requests. The organisation, the teamwork and the final product are all things I am extremely proud of. 
 

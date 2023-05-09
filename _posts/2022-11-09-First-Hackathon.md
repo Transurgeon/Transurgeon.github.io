@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Code to Give Hackathon
+tags: Programming
 ---
 
 <h1 align="center">
@@ -25,7 +25,7 @@ Yes, we did try to integrate the word "glean" into Morgan Stanley...
 
 It didn't turn out to be as funny as we initially expected. 
 
-### Meeting the team and initial brainstorming
+### Meeting the team
 
 I joined the first day of the event with my friends Thomas, Gabriel and his older brother Talih.
 

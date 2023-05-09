@@ -1,6 +1,6 @@
 ---
-layout: page
 title: School Updates
+tags: Education
 ---
 
 <h1 align="center">

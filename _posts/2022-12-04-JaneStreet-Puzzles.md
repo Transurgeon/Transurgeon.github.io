@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Jane Street Puzzle
+tags: Puzzle Programming
 ---
 
 <h1 align="center">
@@ -18,15 +18,6 @@ title: Jane Street Puzzle
 <p align="center">
   <a href="https://www.janestreet.com/puzzles/current-puzzle/">See the puzzle here</a> 
 </p>
-
-<h2 id="table-of-contents">Table of contents</h2>
-
-- <a href="#brainstorming">Initial Brainstorming</a>
-- <a href="#breakthrough">Potential Breakthrough</a>
-- <a href="#DFS">Depth First Search</a>
-- <a href="#block">Roadblocks</a>
-- <a href="#persistence">Persistence</a>
-- <a href="#sources">Resources</a>
 
 <h2 id="brainstorming">Initial Brainstorming</h2>
 

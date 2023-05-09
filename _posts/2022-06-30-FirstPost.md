@@ -1,6 +1,6 @@
 ---
-layout: page
 title: First Blog Post
+tags: Journey
 ---
 
 <h1 align="center">

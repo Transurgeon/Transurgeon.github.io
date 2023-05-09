@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Back to School
+tags: Education
 ---
 
 <h1 align="center">
@@ -51,7 +51,7 @@ Value investing involves a lot of research and understanding of different market
 
 Here is a [paper](https://www.ivey.uwo.ca/media/3775523/value_investing_the_use_of_historical_financial_statement_information.pdf) that attempts to use historical information to improve the accuracy of value investments. 
 
-### Future Aspirations for this project
+### Future Aspirations
 
 My long term goal with this project is simple: Discuss and work with individuals from the Finance industry to build a tool/develop important skills. 
 

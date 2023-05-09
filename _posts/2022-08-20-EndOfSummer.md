@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Vacation time
+tags: Internship
 ---
 
 <h1 align="center">

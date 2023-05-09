@@ -1,6 +1,6 @@
 ---
-layout: page
 title: First weeks of Open Source
+tags: Programming OpenSource
 ---
 
 <h1 align="center">
