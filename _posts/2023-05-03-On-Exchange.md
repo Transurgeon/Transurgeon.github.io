@@ -51,7 +51,15 @@ Surprisingly enough, the learning commons (aka "[Ali G](https://studentnews.manc
 
 At the beginning, for the sake of a change in atmosphere, I would switch between the main library and the Learning Commons every few days. But slowly and surely, I met some studious people from all kinds of backgrounds and decided to stick to the modern 24/7 Learning Commons as my permanent residence (I mean literally! for a whole month, I only went back to my dorm to get some sleep). 
 
+Ali G is a place that continuously fascinates me. A lot of people are there every single day, they sit at the same spot with the same amount of energy drinks and just get a whole lot of work done. I, on the other hand, wander around, take substantially long breaks, have discussions with the aforementioned people, and even play chess and poker as a means of procrastination. 
 
+Although I am not being productive during those countless hours spent in Ali G, I slowly became a mould of my surroundings and made consistent progress on the various tasks I needed to complete. 
+
+Through the many all nighters with my friends and the awesome interactions with peculiar specimens, I felt a sense of belonging and comfort. I knew that there was a reason I didn't go out on weekends and instead, without a fault, walked straight towards this mystical building.
+
+I have experienced many things in this building that could be its own story for another time (wrestling in the study rooms, throwing bottles across floors, playing poker till 7am, etc.) and I will forever be grateful for the relationships I have nourished in Ali G.
+
+However, now that final exams are coming up, Ali G became too much of a distraction and I veered back towards the main library or even my room to get some quality work done.
 
 <h2 id="ramadan">Ramadan</h2>
 
@@ -97,3 +105,16 @@ but at the same time, I had spent way too much money and it was time to go back 
 </div>
 
 <h2 id="closing-thoughts">Closing remarks</h2>
+My exchange so far has been nothing short of amazing.
+
+From travelling to new places around the UK and Europe to the many new friends I have made at the University, I learned a lot about myself and also had a lot of fun experiences.
+
+Throughout my time in Manchester, I also made a lot of progress in Mathematics and gathered some basic cooking skills. 
+
+I believe I also improved on my interpersonal skills, especially at the beginning, when I was mostly alone trying to figure things out.
+
+I am happy to have cleared my doubts about pursuing a Master's degree... countless interactions with fellow students and staff members have officially swayed me in that direction.
+
+If you ever are considering an exchange, I would tell you the cliché line: "just do it". I don't know how, but it ended up being so true for me. 
+
+I am in the midst of completing a form detailing my experiences for the [CSEP](https://www.concordia.ca/students/exchanges/csep.html) program. [Here]() is a link to the document (in progress).
