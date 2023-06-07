@@ -117,4 +117,4 @@ I am happy to have cleared my doubts about pursuing a Master's degree... countle
 
 If you ever are considering an exchange, I would tell you the cliché line: "just do it". I don't know how, but it ended up being so true for me. 
 
-I am in the midst of completing a form detailing my experiences for the [CSEP](https://www.concordia.ca/students/exchanges/csep.html) program. [Here]() is a link to the document (in progress).
+I am in the midst of completing a form detailing my experiences for the [CSEP](https://www.concordia.ca/students/exchanges/csep.html) program. [Here](/documents/WilliamZ-Student-exchange-form.pdf) is a link to the document (completed on June 7th 2023).
