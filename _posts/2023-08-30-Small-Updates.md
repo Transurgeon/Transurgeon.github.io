@@ -7,7 +7,7 @@ tags: Programming
 Life after GSoC
 </h1>
 
-A few days ago, I submitted my [final report](../documents/WilliamZ_GSoC_2023_report.pdf) for the Google Summer of Code program. 
+A few days ago, I submitted my [final report](/documents/WilliamZ_GSoC_2023_report.pdf) for the Google Summer of Code program. 
 
 It marks a big milestone in my life, and perhaps my proudest achievement to date, but it is also only the beginning of many more interesting things to come.
 
@@ -23,7 +23,7 @@ Overall, the tensor operations will remain intact, we simply need to change the 
 
 <h2 id="broadcasting">Broadcasting Algorithms and NetworkX</h2>
 
-For my undergraduate project, I decided to work with my <b>Combinatorics & Graph Theory</b> teacher on exploring implementations of his research in Open Source. You can find a copy of my proposal [here](../documents/WilliamZ_COMP_490_proposal.pdf). 
+For my undergraduate project, I decided to work with my <b>Combinatorics & Graph Theory</b> teacher on exploring implementations of his research in Open Source. You can find a copy of my proposal [here](/documents/WilliamZ_COMP_490_proposal.pdf). 
 
 The main objective is to define a set of heuristics for broadcasting in general graphs and add these implementations to NetworkX's graph algorithm suite. 
 I will be collaborating with [Cédric Paradis](https://github.com/cedparadis), a good friend of mine who is going to work at <b>Morgan Stanley</b>. If time allows it, we will also add comprehensive notebooks on applications of broadcasting and give examples of how to use the new APIs.
