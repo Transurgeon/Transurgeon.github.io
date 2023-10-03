@@ -30,6 +30,6 @@ key: page-about
 
 Welcome to my personal page.
 
-My name is William Zhang, and I am a Computer Science and Mathematics student from Concordia University in Montreal, Canada. I am currently working on a GSoC project for CVXPY.
+My name is William Zhang, and I am a Computer Science and Mathematics student from Concordia University in Montreal, Canada. I am currently completing my last year of undergrad and preparing applications for graduate school.
 
-My interests lie in Combinatorics and Graph Theory, Optimization, and Algorithm Complexity. 
+My interests lie in the following topics: Combinatorics and Graph Theory, Convex Optimization, Code Optimization and Open Source development. 
