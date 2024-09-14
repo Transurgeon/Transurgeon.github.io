@@ -26,10 +26,10 @@ titles:
 key: page-about
 ---
 
-<img class="image image--xl" src="https://cdn.discordapp.com/attachments/1088203301562093660/1095846040445399210/59cda0db-c073-4229-9eeb-bb627d54f500.JPG"/>{:.border.rounded}
+<img class="image image--xl" src=""/>{:.border.rounded}
 
 Welcome to my personal page.
 
-My name is William Zhang, and I am a Computer Science and Mathematics student from Concordia University in Montreal, Canada. I am currently completing my last year of undergrad and preparing applications for graduate school.
+My name is William Zhang, and I am a Electrical Engineering student at Polytechnique Montreal under the supervision of [Antoine Lesage-Landry](https://alesagelandry.github.io/). My research is on online convex optimization and trying to develop new second-order methods for time-varying constraints. I also often contribute to the open source software [CVXPY](https://github.com/cvxpy/cvxpy).
 
 My interests lie in the following topics: Combinatorics and Graph Theory, Convex Optimization, Code Optimization and Open Source development. 
