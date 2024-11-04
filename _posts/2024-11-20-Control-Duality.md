@@ -1,6 +1,6 @@
 ---
-title: My experience as a core developer for CVXPY
-tags: OpenSource
+title: On the duality of Observability and Controllability
+tags: Control
 ---
 
 
