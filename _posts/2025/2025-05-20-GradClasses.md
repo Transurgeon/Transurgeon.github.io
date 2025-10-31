@@ -26,12 +26,6 @@ We also had bonus material on realization theory which seems to be a sort of inv
 
 Overall this course was truly interesting and allowed me to gain a very very basic understanding of control systems. There are so many cool extensions of this class that I can now explore one day: stochastic control, optimal control, adaptive control, etc. (most are taught at Polytechnique also!). I want to conclude this section for sincerely thanking Professor Bowen Yi, who took the time to explain basic concepts to me and also for having really interesting conversations about the class and existing connections to optimization. 
 
-<h2 id="power-systems">Optimization and Machine Learning methods in Power Systems</h2>
-
-This class is taught by my supervisor [Antoine Lesage-Landry](https://alesagelandry.github.io/).
-
-
-
 <h2 id="matrix-computations">Matrix Computations</h2>
 
 I took this class because there was a conflict with getting credited for taking the class Convex Optimization at McGill as an undergrad. In summary, Polytechnique doesn't allow students from other universities to have a class credited if that class counted towards their own degree. Interesting rules... but it was a bit out of my control, and I was open on learning new material anyways, so here we are.
@@ -51,4 +45,34 @@ I didn't do so well on the final exam (which was worth 50%) and ended the class 
 <h2 id="integer-programming">Integer Programming</h2>
 
 This class was taught by a relatively new professor at the Computer Science department of Universite de Montreal, [Kimberly Yu](https://sites.google.com/view/kim-yu/home). 
+
+I really enjoyed taking this class as we were a small group; professor Yu was quite involved and seemed to care about our learning experience. 
+
+We began by talking about mixed-integer formulations for certain problems involving graphs and piece-wise linear functions. Note: this class only covered mixed-integer (linear) formulations. It was interesting to learn some modeling tricks involving binary variables and how it affects the underlying algorithm.
+
+This led us to talk about strength of a formulation, how we should talk about comparing two formulations, etc. It turns out that the best formulation is the convex hull of the integer feasible points, since we can solve the relaxed problem (eliminating binary constraints) and get the optimal integer solution. 
+
+We then continued with cover inequalities, a technique to generate good cuts which help the mixed-integer algorithm eliminate bad integer solutions. We also delved into some theory about a different viewpoint of a convex hull which involved extreme points and rays. This alternative representation allows us to construct a so-called *extended formulation* of the original set. My intuitive high-level understanding of this extended formulation is a sort-of lifting in higher dimensions which describes the convex hull of the original formulation. 
+
+We concluded the class by learning a classic cutting method from Chvátal and Gomory, the branch-and-bound method, and also preparing a final presentation on anything that's related to integer optimization. I decided to do mine on the unit commitment problem since I had some prior interest through working at Gridmatic. It was a cool experience as I learned a lot more details about the problem, and how to clearly explain it. Unfortunately, I was a bit too lazy to implement the results in a real large network. 
+
+Our last homework was to do some custom callback implementation in Gurobi, but I mostly used Copilot and the help of another classmate to complete the exercises. I don't feel confident to say I have learned anything from doing this (other than knowing what a callback in a solver does!). 
+
+<h2 id="power-systems">Optimization and Machine Learning methods in Power Systems</h2>
+
+This class is taught by my supervisor [Antoine Lesage-Landry](https://alesagelandry.github.io/), which used the book: [Convex Optimization of Power Systems](https://assets.cambridge.org/97811070/76877/frontmatter/9781107076877_frontmatter.pdf) by [Joshua Taylor](https://scholar.google.com/citations?user=-6ODrqoAAAAJ&hl=en).
+
+I had quite mixed feelings about the class. On one hand, optimization is my favorite topic and I was super eager to learn about its applications in power systems. On the other hand, I found out that the methods presented are not quite applicable to the operation of real networks and they were extremely sophisticated.
+
+It didn't help that the pace of the class was absolutely brutal. We would cover 3 different topics in one hour chunks every week, from chance-constrained optimization to SDP and SOCP relaxations of the AC-OPF to radial power networks. We even had a part of the class which talked about reinforcement learning algorithms such as Q-learning and gradient policy learning. I can safely say that I don't remember much of the content. 
+
+On the bright side, I learned a lot through doing the homeworks (which were using CVXPY!), and collaborating with classmates from my lab. We also had a final project, where I did a presentation on differentiable optimization and its applications in power systems. However, I was once again too lazy to do any real implementation and didn't end up with a good grade. My hope was to learn more about this hot topic and maybe it could help me for the VSR stay with Parth and Boyd's group (things turned out rather different though). 
+
+<h2 id="conclusion">Conclusion</h2>
+
+Note: this paragraph and the content of two classes were added on a much later date (October 31, 2025). 
+
+Looking back, I am glad I decided to take classes in 4 completely different topics. It allowed me to learn a lot of new things and, although they are not directly helping my research, I am sure it has helped me develop mathematical skills. 
+
+For the time being, I will probably not be doing anymore classes since there are lots of open source and research tasks to do (and I need to write a thesis to graduate, at some point). However, if I ever end up doing a PhD, I would love to take more classes, maybe some stuff in statistics, optimal control and applications, and more CS stuff like advanced compilers and maybe even generative models?.
 
