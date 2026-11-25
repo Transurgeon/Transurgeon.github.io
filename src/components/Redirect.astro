@@ -1,0 +1,17 @@
+---
+// Minimal redirect page for URLs from the old Jekyll site.
+interface Props { to: string }
+const { to } = Astro.props;
+const target = new URL(to, Astro.site);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <meta http-equiv="refresh" content={`0; url=${to}`} />
+    <link rel="canonical" href={target} />
+    <meta name="robots" content="noindex" />
+  </head>
+  <body><a href={to}>This page has moved to {target.pathname}</a></body>
+</html>

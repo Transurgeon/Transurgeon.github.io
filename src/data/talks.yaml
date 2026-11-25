@@ -1,0 +1,14 @@
+# Talks, newest first. Shown in the "Talks" section of /papers.
+#
+# Fields:
+#   title    (required)
+#   venue    (required) event and/or place, e.g. "ICCOPT 2025, Los Angeles"
+#   year     (required)
+#   note     optional one-liner, e.g. "Invited talk"
+#   links    optional map of label -> URL (slides, video, ...)
+
+- title: "Convex programming with CVXPY"
+  venue: Undergraduate mathematics talk, University of Manchester
+  year: 2023
+  links:
+    slides: "/documents/Convex_Programming_with_CVXPY_(slides).pdf"

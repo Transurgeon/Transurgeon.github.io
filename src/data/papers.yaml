@@ -1,5 +1,5 @@
-# Papers, reports and talks, newest first. Shown on /papers (grouped by year)
-# and on the home page (entries with `selected: true`).
+# Papers and reports, newest first. Shown on /papers (grouped by year)
+# and on the home page (entries with `selected: true`). Talks live in talks.yaml.
 #
 # Fields:
 #   title    (required)
@@ -11,6 +11,8 @@
 #   selected optional, true = also list on the home page
 #   links    optional map of label -> URL, rendered as [label] chips
 #            (pdf, arxiv, code, slides, poster, video, ...)
+#   bibtex   optional BibTeX entry, shown behind a [bibtex] toggle.
+#            For arXiv papers, copy it from "Export BibTeX Citation" on the abs page.
 #
 # Example:
 # - title: "A primal-dual interior-point method for time-varying constraints"
@@ -31,6 +33,15 @@
     arxiv: https://arxiv.org/abs/2606.14891
     pdf: https://arxiv.org/pdf/2606.14891
     code: https://github.com/cvxpy/cvxpy
+  bibtex: |
+    @misc{zhang2026cvxpy19,
+      title         = {{CVXPY} 1.9: Recent Advances in Optimization Modeling Software},
+      author        = {William Zhang and Parth Nobel and Aryaman Jeendgar and Riley Murray and Philipp Schiele and Steven Diamond},
+      year          = {2026},
+      eprint        = {2606.14891},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2606.14891}
+    }
 
 - title: "Disciplined nonlinear programming"
   authors: [Daniel Cederberg, William Zhang, Parth Nobel, Stephen Boyd]
@@ -41,6 +52,15 @@
     arxiv: https://arxiv.org/abs/2606.02896
     pdf: https://arxiv.org/pdf/2606.02896
     code: https://github.com/cvxgrp/DNLP
+  bibtex: |
+    @misc{cederberg2026dnlp,
+      title         = {Disciplined Nonlinear Programming},
+      author        = {Daniel Cederberg and William Zhang and Parth Nobel and Stephen Boyd},
+      year          = {2026},
+      eprint        = {2606.02896},
+      archivePrefix = {arXiv},
+      url           = {https://arxiv.org/abs/2606.02896}
+    }
 
 # TODO: add `pdf:` once the thesis is public.
 - title: "A lightweight canonicalization engine in C for disciplined convex programming"
@@ -51,6 +71,14 @@
   selected: true
   links:
     code: https://github.com/LORER-MTL/wzz-thesis
+  bibtex: |
+    @mastersthesis{zhang2026thesis,
+      title  = {A Lightweight Canonicalization Engine in {C} for Disciplined Convex Programming},
+      author = {William Zijie Zhang},
+      school = {Polytechnique Montr{\'e}al},
+      year   = {2026},
+      note   = {To appear}
+    }
 
 - title: "Broadcasting in NetworkX"
   authors: [William Zijie Zhang]
@@ -66,10 +94,3 @@
   year: 2023
   links:
     pdf: /documents/WilliamZ_GSoC_2023_report.pdf
-
-- title: "Convex programming with CVXPY"
-  authors: [William Zijie Zhang]
-  venue: Undergraduate talk, University of Manchester
-  year: 2023
-  links:
-    slides: "/documents/Convex_Programming_with_CVXPY_(slides).pdf"

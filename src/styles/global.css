@@ -189,3 +189,28 @@ a.paper-title:hover { text-decoration: underline; }
 }
 .post-nav a { max-width: 48%; }
 .post-nav .next { margin-left: auto; text-align: right; }
+
+/* ---------- papers: bibtex toggle + talks ---------- */
+
+details.bib { display: inline; }
+details.bib summary { display: inline; cursor: pointer; list-style: none; color: var(--link); }
+details.bib summary::-webkit-details-marker { display: none; }
+details.bib pre {
+  display: block;
+  margin: 0.5rem 0 0.25rem;
+  padding: 0.75rem 0.9rem;
+  background: var(--code-bg);
+  border-radius: 4px;
+  font-family: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: pre;
+  overflow-x: auto;
+  user-select: all; /* one click selects the whole entry */
+}
+
+.section-title {
+  margin: 3rem 0 1rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid var(--rule);
+}

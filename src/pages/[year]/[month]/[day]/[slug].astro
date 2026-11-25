@@ -20,7 +20,7 @@ interface Props { post: Post; newer?: Post; older?: Post }
 const { post, newer, older } = Astro.props;
 const { Content } = await render(post);
 ---
-<Base title={post.data.title} description={post.data.subtitle}>
+<Base title={post.data.title} description={post.data.subtitle} type="article">
   <article>
     <header class="post-header">
       <h1>{post.data.title}</h1>

@@ -10,12 +10,20 @@ const main = paper.links.pdf ?? paper.links.arxiv ?? Object.values(paper.links)[
     {Object.entries(paper.links).map(([label, href]) => (
       <a class="chip" href={href}>[{label}]</a>
     ))}
+    {paper.bibtex && (
+      <details class="bib">
+        <summary class="chip">[bibtex]</summary>
+        <pre>{paper.bibtex.trim()}</pre>
+      </details>
+    )}
   </div>
-  <div class="meta">
-    {paper.authors.map((a, i) => (
-      <>{i > 0 && ', '}{ME.has(a) ? <strong>{a}</strong> : a}</>
-    ))}
-  </div>
+  {paper.authors.length > 0 && (
+    <div class="meta">
+      {paper.authors.map((a, i) => (
+        <>{i > 0 && ', '}{ME.has(a) ? <strong>{a}</strong> : a}</>
+      ))}
+    </div>
+  )}
   <div class="meta">
     <em>{paper.venue}</em>{showYear && `, ${paper.year}`}{paper.note && <> · {paper.note}</>}
   </div>
