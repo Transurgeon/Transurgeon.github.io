@@ -11,7 +11,7 @@ npm run build     # static site in dist/
 npm run preview   # serve dist/ locally
 ```
 
-Requires Node 22.12+.
+Requires Node 22.23.4+ (`nvm install` reads `.nvmrc`).
 
 ## Layout
 

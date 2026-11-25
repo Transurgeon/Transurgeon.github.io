@@ -7,6 +7,15 @@ updates:
     schedule:
       interval: monthly
     open-pull-requests-limit: 5
+    ignore:
+      # katex must match the copy rehype-katex renders with (its CSS is loaded
+      # from our katex). rehype-katex 7 requires ^0.16, so stay on 0.16.x until
+      # a new rehype-katex supports a newer katex.
+      - dependency-name: katex
+        versions: [">=0.17.0"]
+      # @astrojs/check only supports TypeScript up to 6 (closed PR #4).
+      - dependency-name: typescript
+        update-types: [version-update:semver-major]
     groups:
       minor-and-patch:
         update-types: [minor, patch]
