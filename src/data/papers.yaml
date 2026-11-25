@@ -1,0 +1,75 @@
+# Papers, reports and talks, newest first. Shown on /papers (grouped by year)
+# and on the home page (entries with `selected: true`).
+#
+# Fields:
+#   title    (required)
+#   authors  (required) list; your own name is bolded automatically
+#            ("William Zijie Zhang" or "William Zhang", see src/lib/papers.ts)
+#   venue    (required) journal / conference / "arXiv preprint" / ...
+#   year     (required)
+#   note     optional one-liner, e.g. "Oral presentation"
+#   selected optional, true = also list on the home page
+#   links    optional map of label -> URL, rendered as [label] chips
+#            (pdf, arxiv, code, slides, poster, video, ...)
+#
+# Example:
+# - title: "A primal-dual interior-point method for time-varying constraints"
+#   authors: [William Zijie Zhang, Antoine Lesage-Landry]
+#   venue: arXiv preprint
+#   year: 2026
+#   selected: true
+#   links:
+#     arxiv: https://arxiv.org/abs/xxxx.xxxxx
+#     code: https://github.com/...
+
+- title: "CVXPY 1.9: Recent advances in optimization modeling software"
+  authors: [William Zhang, Parth Nobel, Aryaman Jeendgar, Riley Murray, Philipp Schiele, Steven Diamond]
+  venue: arXiv preprint
+  year: 2026
+  selected: true
+  links:
+    arxiv: https://arxiv.org/abs/2606.14891
+    pdf: https://arxiv.org/pdf/2606.14891
+    code: https://github.com/cvxpy/cvxpy
+
+- title: "Disciplined nonlinear programming"
+  authors: [Daniel Cederberg, William Zhang, Parth Nobel, Stephen Boyd]
+  venue: arXiv preprint
+  year: 2026
+  selected: true
+  links:
+    arxiv: https://arxiv.org/abs/2606.02896
+    pdf: https://arxiv.org/pdf/2606.02896
+    code: https://github.com/cvxgrp/DNLP
+
+# TODO: add `pdf:` once the thesis is public.
+- title: "A lightweight canonicalization engine in C for disciplined convex programming"
+  authors: [William Zijie Zhang]
+  venue: Master's thesis, Polytechnique Montréal
+  year: 2026
+  note: to appear
+  selected: true
+  links:
+    code: https://github.com/LORER-MTL/wzz-thesis
+
+- title: "Broadcasting in NetworkX"
+  authors: [William Zijie Zhang]
+  venue: COMP 490 honours project report, Concordia University
+  year: 2023
+  links:
+    pdf: /documents/WilliamZ_Comp490_Final_Report.pdf
+    docs: https://networkx.org/documentation/stable/reference/algorithms/broadcasting.html
+
+- title: "Boosting canonicalization performance by replacing N-dimensional sparse tensor representation"
+  authors: [William Zijie Zhang]
+  venue: Google Summer of Code 2023 final report, NumFOCUS / CVXPY
+  year: 2023
+  links:
+    pdf: /documents/WilliamZ_GSoC_2023_report.pdf
+
+- title: "Convex programming with CVXPY"
+  authors: [William Zijie Zhang]
+  venue: Undergraduate talk, University of Manchester
+  year: 2023
+  links:
+    slides: "/documents/Convex_Programming_with_CVXPY_(slides).pdf"

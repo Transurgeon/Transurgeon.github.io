@@ -1,0 +1,51 @@
+---
+import { Image } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import PostList from '../components/PostList.astro';
+import PaperItem from '../components/PaperItem.astro';
+import { getPosts } from '../lib/posts';
+import { papers } from '../lib/papers';
+import portrait from '../assets/portrait.jpg';
+
+const recent = (await getPosts()).slice(0, 5);
+const selected = papers.filter((p) => p.selected);
+---
+<Base>
+  <section class="intro">
+    <div>
+      <p>
+        I'm a maintainer of <a href="https://github.com/cvxpy/cvxpy">CVXPY</a> and <a href="https://github.com/SparseDifferentiation/SparseDiffEngine">SparseDiffEngine</a>.
+        I'm interested in modeling languages for optimization, computational linear algebra and programming.
+      </p>
+      <p>
+        I did my master's in Electrical Engineering with <a href="https://alesagelandry.github.io/">Antoine Lesage-Landry</a> at Polytechnique Montréal,
+        and was fortunate to do a research stay with Professor <a href="https://web.stanford.edu/~boyd/">Stephen Boyd</a> at Stanford.
+        Before that, I studied Computer Science and Mathematics at Concordia University.
+      </p>
+      <p>Feel free to reach out!</p>
+    </div>
+    <Image
+      class="portrait"
+      src={portrait}
+      alt="William hiking on a volcano, with another volcano peak above the clouds behind him"
+      width={576}
+      widths={[288, 576]}
+      sizes="9rem"
+      loading="eager"
+    />
+  </section>
+
+  {selected.length > 0 && (
+    <section>
+      <div class="section-head"><h2>Selected work</h2><a href="/papers">All papers →</a></div>
+      <ul class="plain">
+        {selected.map((paper) => <PaperItem paper={paper} showYear />)}
+      </ul>
+    </section>
+  )}
+
+  <section>
+    <div class="section-head"><h2>Recent writing</h2><a href="/writing">All posts →</a></div>
+    <PostList posts={recent} withYear />
+  </section>
+</Base>

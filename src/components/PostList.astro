@@ -1,0 +1,15 @@
+---
+import { formatDate, type Post } from '../lib/posts';
+interface Props { posts: Post[]; withYear?: boolean }
+const { posts, withYear = false } = Astro.props;
+---
+<ul class:list={["plain", "post-list", { "with-year": withYear }]}>
+  {posts.map((p) => (
+    <li>
+      <time datetime={p.date.toISOString().slice(0, 10)}>
+        {formatDate(p.date, withYear ? { month: 'short', year: 'numeric' } : undefined)}
+      </time>
+      <a href={p.url}>{p.data.title}</a>
+    </li>
+  ))}
+</ul>

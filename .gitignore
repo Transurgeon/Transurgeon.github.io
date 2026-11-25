@@ -1,14 +1,10 @@
-_asset_bundler_cache
-_site
-.bundle
-.DS_Store
-.jekyll-cache
-.jekyll-metadata
-.sass-cache
-*.gem
-*.sublime-project
-*.sublime-workspace
-codekit-config.json
-Gemfile.lock
-node_modules
+# build output
+dist/
+.astro/
+
+# dependencies
+node_modules/
+
+# logs / OS
 npm-debug.log*
+.DS_Store

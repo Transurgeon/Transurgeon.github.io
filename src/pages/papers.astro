@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import PaperItem from '../components/PaperItem.astro';
+import { papers } from '../lib/papers';
+import { groupByYear } from '../lib/posts';
+
+const years = groupByYear(papers, (p) => p.year);
+---
+<Base title="Papers" description="Papers, reports and talks by William Zijie Zhang.">
+  <h1>Papers</h1>
+  <p class="lede">Papers, reports and talks. Code for most of my work lives in <a href="https://github.com/cvxpy/cvxpy">CVXPY</a> or on <a href="https://github.com/Transurgeon">GitHub</a>.</p>
+  {years.map(([year, items]) => (
+    <section>
+      <h2 class="year">{year}</h2>
+      <ul class="plain">
+        {items.map((paper) => <PaperItem paper={paper} />)}
+      </ul>
+    </section>
+  ))}
+</Base>
