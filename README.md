@@ -1,6 +1,6 @@
 # zijie.ca
 
-Personal website of William Zijie Zhang, built with [Astro](https://astro.build) and deployed to GitHub Pages at <https://www.zijie.ca>.
+Personal website of William Zijie Zhang, built with [Astro](https://astro.build) and deployed to GitHub Pages at <https://zijie.ca>.
 
 ## Develop
 

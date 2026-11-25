@@ -6,7 +6,7 @@ import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
 export default defineConfig({
-  site: 'https://www.zijie.ca',
+  site: 'https://zijie.ca',
   // Emit `papers.html`, `2022/06/30/FirstPost.html`, ... so every URL from
   // the old Jekyll site keeps working without redirects.
   build: { format: 'file' },
